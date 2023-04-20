@@ -15,8 +15,7 @@ app.get('/api/notes', (req, res) => {
     if (err) {
       console.error(err);
     } else {
-      const parsedData = JSON.parse(data);
-      res.json(parsedData)
+      res.json(JSON.parse(data));
     }
   });
 });
