@@ -40,7 +40,6 @@ app.post('/api/notes', (req, res) => {
       });
     }
   });
-  res.json()
 });
 
 app.get('/', (req, res) =>
